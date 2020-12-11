@@ -1,0 +1,19 @@
+#try 5 different function of a string in python
+x = "Nikita Thakur"
+txt = x.split()
+print(txt)
+
+index=x.index('N')
+print(index)
+
+capital = x.upper()
+print(capital)
+
+small = x.lower()
+print(small)
+
+print(x.casefold())
+
+
+end = x.endswith('r')
+print(end)
