@@ -1,0 +1,14 @@
+#use if else and elif to write a programme in python for your report card
+x=int(input("marks"))
+if x == 90 or  x == 80:
+    print("excellent you got A++ grade")
+elif x == 70 or x > 70:
+    print("good you got A grade")
+elif x == 60 or x == 50 or  x > 50:
+    print("average, you got B grade ,next time try to better")
+elif x < 30:
+    print("fail")
+
+
+
+
