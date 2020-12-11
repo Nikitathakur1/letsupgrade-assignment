@@ -1,0 +1,19 @@
+#Experiment atleast 5 default function of dictionary
+#pop function
+dict = {1 : "nikki" , 2 : "neha" , 3 : "jay"}
+print(dict.popitem())
+
+#get fuction
+print(dict.get(2))
+
+#setdefault
+print(dict.setdefault(1))
+
+
+print(dict.values())
+
+print(dict.keys())
+
+
+
+
