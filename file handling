@@ -1,0 +1,21 @@
+#write down a programme in python for openning file and writimg
+#" I love letsupgrade"
+#and close it and read it back again , and then
+abc = open("heyworld.txt ",'w')
+abc.write(" i love letsupgrade")
+abc.close()
+print(abc)
+
+abc = open("heyworld.txt",'r')
+content = abc.read()
+print(content)
+
+abc = open("heyworld.txt",'a')
+abc.write("for teaching amazing python")
+abc.close()
+print(abc)
+
+abc = open("heyworld.txt" , 'r')
+content = abc.read()
+abc.close()
+print(content)
